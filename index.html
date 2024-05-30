@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mi.css">
+    <title>Brian Mutinda Professional Portfolio</title>
+    <script src="https://kit.fontawesome.com/48dac2d1b2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+        <nav>
+         <p class="logo"><span>M</span>uuo.😉</p>   
+         <ul id="sidemenu">
+            <li><a href="#header ">Home</a></li>
+            <li><a href="#about ">About</a></li>
+            <li><a href="#services ">Services</a></li>
+            <li><a href="#portfolio ">Portfolio</a></li>
+            <li><a href="#contact ">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+         </ul>
+         <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="head-text">
+            <p>Front-End Web Developer </p>
+            <h1>Hi, I'm <span>Brian</span> Mutinda</h1>
+        </div>
+    </div>
+  </div>
+ <!-------about------>
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col1">
+                <img src="images/mimi2.jpg">
+            </div>
+            <div class="about-col2">
+                <h1 class="sub-title">About Me</h1>
+                <p>My area of expertise as a front-end web developer is creating visually stunning and intuitive websites. My proficiency in HTML, CSS, and JavaScript allows me to create fluid web designs. My portfolio includes a variety of projects that demonstrate my abilities to combine utility and aesthetics, from interactive features to responsive layouts. I'm eager to apply my abilities and creativity to a new position where I can help achieve organizational goals and improve user engagement.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>HTML/CSS</span><br>Creation of responsive web pages and description of layout</li>
+                        <li><span>JavaScript</span><br>Creation of dynamic and interactive content</li>
+                        <li><span>Frameworks and Libraries</span><br>Proficiency in Bootsrap, React and Vue.js</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021-current</span><br>Creation of responsive web pages and description of layout</li>
+                        <li><span>JavaScript</span><br>Creation of dynamic and interactive content</li>
+                        <li><span>Frameworks and Libraries</span><br>Proficiency in Bootsrap, React and Vue.js</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024</span><br>Creation of responsive web pages and description of layout</li>
+                        <li><span>JavaScript</span><br>Creation of dynamic and interactive content</li>
+                        <li><span>Frameworks and Libraries</span><br>Proficiency in Bootsrap, React and Vue.js</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!----services-->
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-title">What I Do</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I create visually appealing, user-friendly designs that enhance user experience. My focus is on responsive layouts, effective color schemes, and readable typography.</p>
+                <a href="https://en.wikipedia.org/wiki/Web_design">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Web Development</h2>
+                <p>I build dynamic, interactive websites using HTML, CSS, and JavaScript. My expertise ensures that websites are functional, fast, and responsive on all devices.</p>
+                <a href="https://en.wikipedia.org/wiki/Web_development">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-bug"></i>
+                <h2>Website maintenance</h2>
+                <p>I provide ongoing maintenance, including updates, bug fixes, and security improvements, to ensure your website remains up-to-date and secure.</p>
+                <a href="https://search.brave.com/search?q=website+maintenance+&source=web&summary=1&summary_og=81040b3e25bbe637628195">Learn more</a>
+            </div>
+        </div>
+    </div>   
+  </div>
+  <!--portfolio-->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/age calc.jpg" alt="">
+                <div class="layer">
+                    <h3>Age calculator</h3>
+                    <p>Calculate anyone's age at this app</p>
+                    <a href="https://github.com/muuo-maker"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/pass-gen snap.png" alt="">
+                <div class="layer">
+                    <h3>Password generator</h3>
+                    <p>Escape password generation problems</p>
+                    <a href="https://github.com/muuo-maker"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/quiz app shot.png" alt="">
+                <div class="layer">
+                    <h3>Quiz App</h3>
+                    <p>See how good your general knowledge is</p>
+                    <a href="https://github.com/muuo-maker"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/muuo-maker" class="btn">See More</a>
+    </div>
+  </div>
+<!--------contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Get In Touch</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>mutindabrian239@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>0758589313</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/muuo_6?igsh=anQ1NHVpcmd6enBj"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://x.com/BrianMu29599009?t=-nvOETo4MrHTKgg4Y4CQxg&s=09"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.linkedin.com/in/brian-muuo-839239222"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100073210346523&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+
+                </div>
+                <a href="images/CV final.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Brian. Made by muuo</p>
+    </div>
+</div>
+
+
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwhYyKIAzhW_aiiB5ZX6MU-VcZqokN82vXEX3JX2SCsYYlbYClGbR2SjXwkddmA_35D/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
